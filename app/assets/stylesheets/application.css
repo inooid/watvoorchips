@@ -10,6 +10,7 @@
  *
  *= require_self
  *= require pure/grids
+ *= require animate
  *= require_tree .
  */
 

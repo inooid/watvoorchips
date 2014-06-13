@@ -33,8 +33,11 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-# Added Pure Gridsystem
+# Pure Gridsystem
 gem 'pure-sass'
+
+# Animate.css animation library
+gem 'animate-rails'
 
 gem 'quiet_assets', :group => :development
 gem 'rails_12factor', group: :production
