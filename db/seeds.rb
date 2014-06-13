@@ -9,10 +9,10 @@
 
 Item.create([
   { name: "Paprika Normal",
-    image_link: "paprika-normal.jpg"
+    image_link: "paprika-normal.png"
     },
 
   { name: "Naturel Normal",
-    image_link: "naturel-normal.jpg"
+    image_link: "naturel-normal.png"
     },
 ])
