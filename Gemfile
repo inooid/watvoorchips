@@ -33,6 +33,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+# Added Pure Gridsystem
+gem 'pure-sass'
+
 gem 'quiet_assets', :group => :development
 gem 'rails_12factor', group: :production
 
