@@ -1,0 +1,43 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+
+
+html {
+  background-color: #f1f1f1;
+}
+/* line 1, /Users/Koop/Documents/Rails Projects/watvoorchips/app/assets/stylesheets/view.css.sass */
+#index {
+  position: relative;
+  text-align: center;
+}
+/* line 5, /Users/Koop/Documents/Rails Projects/watvoorchips/app/assets/stylesheets/view.css.sass */
+#index .container {
+  width: 100%;
+  height: 100%;
+  padding: 1%;
+}
+/* line 13, /Users/Koop/Documents/Rails Projects/watvoorchips/app/assets/stylesheets/view.css.sass */
+#index .container .content {
+  height: 100%;
+  width: 100%;
+}
+/* line 17, /Users/Koop/Documents/Rails Projects/watvoorchips/app/assets/stylesheets/view.css.sass */
+#index .container .content .advice {
+  color: #4f4f4f;
+}
+/* line 20, /Users/Koop/Documents/Rails Projects/watvoorchips/app/assets/stylesheets/view.css.sass */
+#index .container .content .image img {
+  width: 75%;
+}
