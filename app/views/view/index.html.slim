@@ -8,3 +8,8 @@
         h1 Jouw Advies:
       .image
         img.randomChips src=image_path("#{@item.image_link}")
+
+        = link_to root_path do
+          .reloadbtn
+            / img.reloadImg src=image_path("#{@item.image_link}")
+            p Opniew Rollen
