@@ -1,11 +1,12 @@
 doctype html
 html
-    head
-      title WatVoorChips.nl - Wat voor chips neem jij vandaag?
-      link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css"
-        = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
-        = javascript_include_tag 'application', 'data-turbolinks-track' => true
-        = favicon_link_tag
-        = csrf_meta_tags
-    body
-      = yield
+  head
+    title WatVoorChips.nl - Wat voor chips neem jij vandaag?
+    link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css"
+      = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+      = javascript_include_tag 'application', 'data-turbolinks-track' => true
+      = favicon_link_tag
+      = csrf_meta_tags
+  body
+    = yield
+    = render 'layouts/footer'
