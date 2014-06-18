@@ -15,4 +15,16 @@ Item.create([
   { name: "Naturel Normal",
     image_link: "naturel-normal.png"
     },
+
+  { name: "Bolognese Normal",
+    image_link: "naturel-normal.png"
+    },
+
+  { name: "Naturel Normal",
+    image_link: "naturel-normal.png"
+    },
+
+  { name: "Naturel Normal",
+    image_link: "naturel-normal.png"
+    },
 ])
