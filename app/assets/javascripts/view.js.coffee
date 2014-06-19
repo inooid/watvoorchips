@@ -4,3 +4,12 @@
 
 $ ->
   ($ '.header').removeClass('paddingTop') unless window.navigator.standalone
+
+  $('.randomChips').addClass('animated bounceIn')
+
+  $('#reloadButton').click ->
+    $('.randomChips').addClass('animated bounceOut')
+    setTimeout (->
+      location.reload()
+    ), 1000
+    return false
