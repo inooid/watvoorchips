@@ -2,6 +2,9 @@
   position: relative
   text-align: center
 
+  .paddingTop
+    padding-top: 20px
+
   .container
     height: 100%
     width: 100%
@@ -32,6 +35,7 @@
 
         h1
           margin: 0px
+
       .image
         position: relative
         img
@@ -40,10 +44,14 @@
         text-decoration: none
 
       .reloadbtn
+        position: fixed
+        bottom: 2%
+        left: 50%
         background-color: #da392a
         margin: auto
 
-        width: 85%
+        width: 86%
+        margin-left: -43%
         font-family: "Open Sans"
         font-size: 1.3em
         font-weight: bold
@@ -51,4 +59,7 @@
         border-radius: 10px
 
         p
-          padding: 5% 0
+          padding: 1% 0
+
+          span.reloadIcon
+            padding: 5px 10px

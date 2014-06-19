@@ -3,6 +3,9 @@ Watvoorchips::Application.routes.draw do
   get "view/new"
 
   root 'view#index'
+
+  get '/', to: 'view#reloadImage', as: 'reload_image'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
