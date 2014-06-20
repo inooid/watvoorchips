@@ -50,6 +50,6 @@ Item.create([
     image_link: "pringles-paprika.png"
     },
   { name: "Chio Pombär",
-    image_link: "chio-pombär.png"
+    image_link: "chio-pombar.png"
     }
 ])
