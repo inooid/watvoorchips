@@ -1,0 +1,80 @@
+@media (min-width: 960px)
+  #index
+    position: relative
+    text-align: center
+    height: 100%
+    margin-top: 150px
+
+    .container
+      height: 100%
+      width: 800px
+      margin: auto
+
+      .header
+        position: relative
+        background-color: white
+        width: 100%
+        margin: 0px
+        border-radius: 10px 10px 0 0
+
+        .logo
+          padding: 5% 0px
+
+          img
+            // width: 65%
+            max-height: 48px
+            max-width: 266px
+
+      .content
+        border-radius: 0 0 10px 10px
+        height: 100%
+        width: 100%
+        position: relative
+        background: white
+
+        .image
+          // position: relative
+          width: 50%
+          margin-bottom: 30px
+          img
+            width: 100%
+        a
+          text-decoration: none
+
+        .advice
+          @include position(absolute, 60px 0 0 380px)
+          color: #4f4f4f
+          font-family: "Open Sans"
+          font-size: 1.12em
+          margin: 5px 0 0px 0
+          float: left
+
+          h1
+            margin: 0px
+            text-align: left
+            padding-left: 3px
+
+          .chipsname
+            margin: 5px 0
+            font-size: 2.8em
+            font-weight: bold
+            color: #da392a
+
+        .reloadbtn
+          @include position(absolute, 0 0 125px 380px)
+
+          background-color: #da392a
+          width: 220px
+
+          font-family: "Open Sans"
+          font-size: 1.3em
+          font-weight: bold
+          color: white
+          border-radius: 10px
+
+          p
+            padding: 1% 0
+
+            span.reloadIcon
+              padding: 5px 10px
+
