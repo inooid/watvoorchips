@@ -3,6 +3,7 @@ class ViewController < ApplicationController
     @item = Item.order("RANDOM()").first
   end
 
-  def new
+  def random_chips
+    p 'HENK'
   end
 end

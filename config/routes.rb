@@ -4,7 +4,7 @@ Watvoorchips::Application.routes.draw do
 
   root 'view#index'
 
-  get '/', to: 'view#reloadImage', as: 'reload_image'
+  get '/random_chips', to: 'view#random_chips', as: 'random_chips'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
