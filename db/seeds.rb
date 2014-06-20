@@ -38,7 +38,7 @@ Item.create([
     image_link: "naturel-wokkels.png"
     },
   { name: "Bolognese Normal",
-    image_link: "naturel-normal.png"
+    image_link: "bolognese-normal.png"
     },
   { name: "Barbecue Ham",
     image_link: "barbecue-ham.png"
@@ -48,5 +48,10 @@ Item.create([
     },
   { name: "Pringels Paprika",
     image_link: "pringles-paprika.png"
+    },
+  { name: "Chio Pombär",
+    image_link: "pringles-paprika.png"
     }
+
+
 ])
