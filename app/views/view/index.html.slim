@@ -2,12 +2,11 @@
   .container
     .header.paddingTop
       .logo
-        img src=image_path('logo-web.png')
+        = link_to root_path do
+          img src=image_path('logo-mobile.png')
     .content
       .advice
         h1 Jouw advies:
-        p.chipsname = @item.name
-
       .image
         img.randomChips src=image_path("#{@item.image_link}")
 
