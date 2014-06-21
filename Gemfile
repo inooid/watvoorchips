@@ -43,6 +43,7 @@ gem 'animate-rails'
 gem 'quiet_assets', :group => :development
 gem 'rails_12factor', group: :production
 gem 'jquery-turbolinks'
+gem 'meta-tags'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
