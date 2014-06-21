@@ -8,7 +8,12 @@ $ ->
   $('.randomChips').addClass('animated bounceIn')
 
   $('#reloadButton').click ->
+    $('#reloadButton').addClass('animated fadeOut')
     $('.randomChips').addClass('animated bounceOut')
+    $('.advice h1').addClass('animated fadeOutUp')
+    setTimeout (->
+      $('.advice .chipsname').addClass('animated fadeOutUp')
+    ), 50
     setTimeout (->
       location.reload()
     ), 1000
