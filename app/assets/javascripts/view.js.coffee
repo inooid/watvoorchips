@@ -6,7 +6,6 @@ $ ->
   ($ '.header').removeClass('paddingTop') unless window.navigator.standalone
 
   $('.randomChips').addClass('animated bounceIn')
-
   $('#reloadButton').click ->
     $('#reloadButton').addClass('animated fadeOut')
     $('.randomChips').addClass('animated bounceOut')
