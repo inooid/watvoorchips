@@ -24,11 +24,11 @@ var addToHome = (function (w) {
 
 		options = {
 			autostart: true,			// Automatically open the balloon
-			returningVisitor: false,	// Show the balloon to returning visitors only (setting this to true is HIGHLY RECCOMENDED)
+			returningVisitor: true,	// Show the balloon to returning visitors only (setting this to true is HIGHLY RECCOMENDED)
 			animationIn: 'bubble',		// drop || bubble || fade
-			animationOut: 'fade',		// drop || bubble || fade
+			animationOut: 'bubble',		// drop || bubble || fade
 			startDelay: 1000,			// 2 seconds from page load before the balloon appears
-			lifespan: 15000,			// 15 seconds before it is automatically destroyed
+			lifespan: 5000,			// 15 seconds before it is automatically destroyed
 			bottomOffset: 14,			// Distance of the balloon from bottom
 			expire: 0,					// Minutes to wait before showing the popup again (0 = always displayed)
 			message: '',				// Customize your message or force a language ('' = automatic)
