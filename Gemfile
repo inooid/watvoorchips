@@ -42,6 +42,8 @@ gem 'animate-rails'
 
 gem 'quiet_assets', :group => :development
 gem 'rails_12factor', group: :production
+gem 'heroku_rails_deflate', :group => :production
+
 gem 'jquery-turbolinks'
 gem 'meta-tags'
 
