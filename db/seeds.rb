@@ -29,7 +29,7 @@ Item.create([
     image_link: "nibb-it-rings.png"
     },
   { name: "Nibb-it Sticks",
-    image_link: "nibb-it-rings.png"
+    image_link: "nibb-it-sticks.png"
     },
   { name: "Patat Joppie",
     image_link: "patat-joppie.png"
