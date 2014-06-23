@@ -7,10 +7,10 @@
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
 Item.create([
-  { name: "Paprika Normal",
+  { name: "Paprika",
     image_link: "paprika-normal.png"
     },
-  { name: "Naturel Normal",
+  { name: "Naturel",
     image_link: "naturel-normal.png"
     },
   { name: "Doritos Sweet Chili Peper",
@@ -28,6 +28,9 @@ Item.create([
   { name: "Nibb-it Rings",
     image_link: "nibb-it-rings.png"
     },
+  { name: "Nibb-it Sticks",
+    image_link: "nibb-it-rings.png"
+    },
   { name: "Patat Joppie",
     image_link: "patat-joppie.png"
     },
@@ -37,7 +40,7 @@ Item.create([
   { name: "Naturel Wokkels",
     image_link: "naturel-wokkels.png"
     },
-  { name: "Bolognese Normal",
+  { name: "Bolognese",
     image_link: "bolognese-normal.png"
     },
   { name: "Barbecue Ham",
