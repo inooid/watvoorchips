@@ -3,7 +3,7 @@ html
   head
     title WatVoorChips.nl - Op zoek naar chips?
     link href="http://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet" type="text/css"
-    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true, :async => true
     = javascript_include_tag 'application', 'data-turbolinks-track' => true, :async => true
     = favicon_link_tag
     = csrf_meta_tags
